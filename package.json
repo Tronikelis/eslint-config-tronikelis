@@ -1,7 +1,12 @@
 {
     "name": "eslint-config-tronikelis",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "index.js",
+    "author": "Tronikelis",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Tronikelis/eslint-config-tronikelis.git"
+    },
     "dependencies": {
         "@typescript-eslint/eslint-plugin": "6.2.1",
         "@typescript-eslint/parser": "6.2.1",
