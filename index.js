@@ -10,13 +10,13 @@ module.exports = {
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:@typescript-eslint/recommended-requiring-type-checking",
-        "plugin:react-hooks/recommended",
-        "plugin:react/recommended",
+        // "plugin:react-hooks/recommended",
+        // "plugin:react/recommended",
         "plugin:prettier/recommended",
     ],
     plugins: [
-        "react",
-        "react-hooks",
+        // "react",
+        // "react-hooks",
         "@typescript-eslint",
         "prettier",
         "simple-import-sort",
@@ -34,9 +34,9 @@ module.exports = {
 
         // disabled recommended rules
         "no-unused-vars": "off",
-        "react/prop-types": "off",
+        // "react/prop-types": "off",
         "@typescript-eslint/explicit-module-boundary-types": "off",
-        "react/display-name": "off",
+        // "react/display-name": "off",
         quotes: "off",
         "@typescript-eslint/no-explicit-any": "off",
         "@typescript-eslint/no-var-requires": "off",
@@ -114,8 +114,8 @@ module.exports = {
         node: true,
     },
     settings: {
-        react: {
-            version: "detect",
-        },
+        // react: {
+        //     version: "detect",
+        // },
     },
 };
