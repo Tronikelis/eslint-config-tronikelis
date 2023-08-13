@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-tronikelis",
-    "version": "1.0.3",
+    "version": "1.0.2",
     "main": "index.js",
     "author": "Tronikelis",
     "repository": {
@@ -14,8 +14,7 @@
         "eslint-plugin-prettier": "5.0.0",
         "eslint-plugin-react": "7.33.1",
         "eslint-plugin-react-hooks": "4.6.0",
-        "eslint-plugin-simple-import-sort": "10.0.0",
-        "eslint-plugin-solid": "0.12.1"
+        "eslint-plugin-simple-import-sort": "10.0.0"
     },
     "peerDependencies": {
         "eslint": "*",
