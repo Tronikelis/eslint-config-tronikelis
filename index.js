@@ -13,10 +13,12 @@ module.exports = {
         "plugin:react-hooks/recommended",
         "plugin:react/recommended",
         "plugin:prettier/recommended",
+        "plugin:solid/typescript",
     ],
     plugins: [
         "react",
         "react-hooks",
+        "solid",
         "@typescript-eslint",
         "prettier",
         "simple-import-sort",
