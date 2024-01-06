@@ -10,9 +10,15 @@ module.exports = {
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:@typescript-eslint/recommended-requiring-type-checking",
+        "plugin:unicorn/recommended",
         "plugin:prettier/recommended",
     ],
-    plugins: ["@typescript-eslint", "prettier", "simple-import-sort"],
+    plugins: [
+        "@typescript-eslint",
+        "prettier",
+        "simple-import-sort",
+        "unicorn",
+    ],
     rules: {
         // disabled type-required rules
         "@typescript-eslint/no-misused-promises": [
@@ -32,8 +38,10 @@ module.exports = {
         "@typescript-eslint/no-var-requires": "off",
         indent: "off",
         "@typescript-eslint/indent": "off",
+        "unicorn/prefer-ternary": "off",
 
         // manually enabled rules
+        "no-console": ["warn", { allow: ["warn", "error"] }],
         "@typescript-eslint/no-unused-vars": [
             "warn",
             { argsIgnorePattern: "^_" },
@@ -100,7 +108,7 @@ module.exports = {
         // project: ["./backend/tsconfig.json", "./extension/tsconfig.json"],
     },
     env: {
-        es2021: true,
+        es2024: true,
         node: true,
     },
 };
