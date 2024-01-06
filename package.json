@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-tronikelis",
-    "version": "8.0.0",
+    "version": "9.0.0",
     "main": "index.js",
     "author": "Tronikelis",
     "repository": {
@@ -12,8 +12,7 @@
         "@typescript-eslint/parser": "6.15.0",
         "eslint-config-prettier": "9.1.0",
         "eslint-plugin-prettier": "5.1.1",
-        "eslint-plugin-simple-import-sort": "10.0.0",
-        "eslint-plugin-unicorn": "50.0.1"
+        "eslint-plugin-simple-import-sort": "10.0.0"
     },
     "peerDependencies": {
         "eslint": "*",
