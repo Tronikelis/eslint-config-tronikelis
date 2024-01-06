@@ -44,6 +44,7 @@ module.exports = {
         "unicorn/no-process-exit": "off",
         "unicorn/prevent-abbreviations": "off",
         "unicorn/no-negated-condition": "off",
+        "unicorn/prefer-switch": "off",
 
         // manually enabled rules
         "no-console": ["warn", { allow: ["warn", "error"] }],
