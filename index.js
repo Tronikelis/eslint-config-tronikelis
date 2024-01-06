@@ -45,6 +45,7 @@ module.exports = {
         "unicorn/prevent-abbreviations": "off",
         "unicorn/no-negated-condition": "off",
         "unicorn/prefer-switch": "off",
+        "unicorn/prefer-top-level-await": "off",
 
         // manually enabled rules
         "no-console": ["warn", { allow: ["warn", "error"] }],
