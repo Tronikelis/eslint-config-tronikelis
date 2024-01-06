@@ -39,6 +39,11 @@ module.exports = {
         indent: "off",
         "@typescript-eslint/indent": "off",
         "unicorn/prefer-ternary": "off",
+        "unicorn/filename-case": "off",
+        "unicorn/catch-error-name": "off",
+        "unicorn/no-process-exit": "off",
+        "unicorn/prevent-abbreviations": "off",
+        "unicorn/no-negated-condition": "off",
 
         // manually enabled rules
         "no-console": ["warn", { allow: ["warn", "error"] }],
